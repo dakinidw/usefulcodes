@@ -1,3 +1,4 @@
+*Este codigo sirve para limpiar columnas de excel. Correr en vbasic con alt + f11
 
 Public Sub DeleteEmptyColumns()
     Dim SourceRange As Range
