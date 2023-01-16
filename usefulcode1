@@ -23,3 +23,9 @@ Public Sub DeleteEmptyColumns()
         Application.ScreenUpdating = True
     End If
 End Sub
+
+
+*Fechas en STATA
+gen var_existente = date(new_var, "DMY")
+format new_var %td
+
